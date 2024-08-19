@@ -26,12 +26,10 @@ To set up the project, follow these steps:
     npm install
     ```
 
-### Running the Server
-
-To start the server, use the following command:
+4. Running the website
 
     ```bash
     node server.js
     ```
-
+    
 By default, the srver should run on http://localhost:3000
