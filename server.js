@@ -3,8 +3,8 @@ const app = express();
 const path = require('path');
 const bodyParser = require('body-parser');
 
-const PORT = 3000; // Change the port
-const PASSWORD = "password123"; // Set the password
+const PORT = 3000; // set to whatever port u need
+const PASSWORD = "password123"; // this is the password to login
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
